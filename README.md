@@ -48,17 +48,30 @@ docs/          Documentación de arquitectura y despliegue
 scripts/       Automatizaciones auxiliares
 ```
 
-## Cómo crear un nuevo empleado
+## Qué querés hacer
 
-1. Copiar `clients/_template/`.
-2. Completar la configuración del cliente.
-3. Seleccionar las skills necesarias.
-4. Configurar integraciones y permisos.
-5. Definir workflows.
-6. Cargar conocimiento autorizado.
-7. Completar y ejecutar los tests.
-8. Implementar primero en modo interno o borrador.
-9. Habilitar automatizaciones gradualmente.
+```text
+Quiero crear un nuevo empleado
+→ leer docs/discovery-process.md
+
+Quiero agregar una nueva capacidad
+→ leer skills/README.md
+
+Quiero conectar una nueva aplicación
+→ leer integrations/README.md
+
+Quiero definir un proceso de negocio
+→ leer workflows/README.md
+
+Quiero cargar información del negocio
+→ leer knowledge/README.md
+
+Quiero configurar un cliente
+→ leer clients/README.md
+
+Quiero probar una implementación
+→ leer tests/README.md
+```
 
 ## Reglas de diseño
 
