@@ -1,0 +1,15 @@
+channels:
+  internal:
+    telegram:
+      enabled: false
+    whatsapp:
+      enabled: false
+  external:
+    whatsapp:
+      enabled: false
+      automatic_replies: false
+
+notification_preferences:
+  daily_summary: false
+  overdue_alerts: false
+  urgent_alerts: false

@@ -1,0 +1,17 @@
+client:
+  id: ""
+  display_name: ""
+  timezone: "America/Argentina/Cordoba"
+  language: "es-AR"
+
+agent:
+  id: ""
+  role: ""
+  primary_user: ""
+  objective: ""
+  operating_mode: "draft"
+
+human_handoff:
+  responsible_person: ""
+  channel: ""
+  maximum_response_time_minutes: null

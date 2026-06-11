@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+*.pem
+*.key
+
+# Runtime
+logs/
+tmp/
+cache/
+state/
+sessions/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private client data
+clients/*/private/
+knowledge/*/private/

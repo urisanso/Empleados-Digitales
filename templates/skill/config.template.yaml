@@ -1,0 +1,13 @@
+skill:
+  enabled: false
+  mode: draft
+
+required_fields: []
+
+permissions: []
+
+settings: {}
+
+human_handoff:
+  enabled: true
+  conditions: []

@@ -1,0 +1,15 @@
+default_policy: deny
+
+actions:
+  read_crm: read_only
+  summarize_conversations: read_only
+  suggest_reply: draft
+  send_reply: forbidden
+  update_crm: approval_required
+  read_payment_status: read_only
+  register_payment: forbidden
+  read_stock: read_only
+  modify_stock: forbidden
+
+# Valores permitidos:
+# read_only | draft | approval_required | automatic | forbidden
