@@ -73,6 +73,19 @@ Quiero probar una implementación
 → leer tests/README.md
 ```
 
+## Cómo crear un nuevo empleado
+
+1. Realizar el relevamiento adaptativo definido en `docs/discovery-process.md`.
+2. Copiar `clients/_template/`.
+3. Completar la configuración del cliente.
+4. Seleccionar las skills necesarias.
+5. Configurar integraciones y permisos.
+6. Definir workflows.
+7. Cargar conocimiento autorizado.
+8. Completar y ejecutar los tests.
+9. Implementar primero en modo interno o borrador.
+10. Habilitar automatizaciones gradualmente.
+
 ## Reglas de diseño
 
 - Una skill resuelve una capacidad concreta.
